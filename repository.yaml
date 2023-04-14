@@ -1,0 +1,4 @@
+
+name: MariaDB with bugfixes add-on
+url: https://github.com/lmagyar/homeassistant-addon-mariadb
+maintainer: "@lmagyar"

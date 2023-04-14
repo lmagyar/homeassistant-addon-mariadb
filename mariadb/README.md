@@ -1,5 +1,13 @@
 # Home Assistant Add-on: MariaDB
 
+![Warning][warning_stripe]
+
+> This is a **fork** of the [official add-on][official_addon]! This contains bugfixes.
+>
+> Updates are released when the official add-on changes (changes are merged).
+
+![Warning][warning_stripe]
+
 MariaDB database for Home Assistant.
 
 ![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield] ![Supports armhf Architecture][armhf-shield] ![Supports armv7 Architecture][armv7-shield] ![Supports i386 Architecture][i386-shield]
@@ -14,3 +22,5 @@ You can use this add-on to install MariaDB, which is an open-source (GPLv2 licen
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [mariadb]: https://mariadb.com
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[warning_stripe]: https://github.com/lmagyar/homeassistant-addon-mariadb/raw/master/images/warning_stripe_wide.png
+[official_addon]: https://github.com/home-assistant/addons/tree/master/mariadb
