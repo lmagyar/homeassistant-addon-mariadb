@@ -1,8 +1,12 @@
-# Home Assistant Add-on: MariaDB
+# Home Assistant Add-on: MariaDB with bugfixes
 
 ![Warning][warning_stripe]
 
-> This is a **fork** of the [official add-on][official_addon]! This contains bugfixes.
+> This is a **fork** of the [official add-on][official_addon]!
+>
+> Changes:
+>   - Migrate add-on layout to S6 Overlay
+>   - Update to MariaDB version 10.6.12
 >
 > Updates are released when the official add-on changes (changes are merged).
 
@@ -12,9 +16,14 @@
 
 Follow these steps to get the add-on installed on your system:
 
-1. Navigate in your Home Assistant frontend to **Settings** -> **Add-ons** -> **Add-on store**.
-2. Find the "MariaDB" add-on and click it.
-3. Click on the "INSTALL" button.
+1. Navigate in your Home Assistant frontend to **Settings** -> **Add-ons** ->
+   **Add-on store**.
+1. In the **...** menu at the top right corner click **Repositories**, add
+   `https://github.com/lmagyar/homeassistant-addon-mariadb` as repository.
+1. Find the "MariaDB with bugfixes" add-on and click it. If it doesn't show up,
+   wait until HA refreshes the information about the add-on, or click **Reload**
+   in the **...** menu at the top right corner.
+1. Click on the "INSTALL" button.
 
 ## How to use
 
