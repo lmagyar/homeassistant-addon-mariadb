@@ -1,8 +1,8 @@
 #!/command/with-contenv bashio
+# shellcheck shell=bash
 # ==============================================================================
 # Start MariaDB service
 # ==============================================================================
-MARIADB_DATA=/data/databases
 
 # Start mariadb
 bashio::log.info "Starting MariaDB"

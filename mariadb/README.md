@@ -1,8 +1,12 @@
-# Home Assistant Add-on: MariaDB
+# Home Assistant Add-on: MariaDB with bugfixes
 
 ![Warning][warning_stripe]
 
-> This is a **fork** of the [official add-on][official_addon]! This contains bugfixes.
+> This is a **fork** of the [official add-on][official_addon]!
+>
+> Changes:
+>   - Migrate add-on layout to S6 Overlay
+>   - Update to MariaDB version 10.6.12
 >
 > Updates are released when the official add-on changes (changes are merged).
 

@@ -1,5 +1,5 @@
 ---
-version: 2.6.0-rc08
+version: 2.6.0-rc09
 slug: mariadb
 name: MariaDB with bugfixes
 description: A SQL database server

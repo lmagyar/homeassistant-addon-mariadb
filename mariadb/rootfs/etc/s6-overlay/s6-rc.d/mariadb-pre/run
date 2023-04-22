@@ -1,4 +1,5 @@
 #!/command/with-contenv bashio
+# shellcheck shell=bash
 # ==============================================================================
 # Pre-start initialization of MariaDB service
 # ==============================================================================
@@ -8,6 +9,10 @@ NEW_INSTALL=false
 if ! bashio::fs.directory_exists "${MARIADB_DATA}"; then
     NEW_INSTALL=true
 fi
+
+# Save variables
+printf "${MARIADB_DATA}" > /var/run/s6/container_environment/MARIADB_DATA
+printf "${NEW_INSTALL}" > /var/run/s6/container_environment/NEW_INSTALL
 
 # Redirect log output
 mkdir -p "${MARIADB_DATA}"
@@ -21,6 +26,3 @@ if bashio::var.true "${NEW_INSTALL}"; then
 else
     bashio::log.info "Using existing mariadb initial system"
 fi
-
-# Save variables
-echo "${NEW_INSTALL}" > /run/NEW_INSTALL
