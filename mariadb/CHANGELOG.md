@@ -1,5 +1,15 @@
 # Changelog
 
+***=== END OF LIFE === END OF LIFE === END OF LIFE === END OF LIFE ===***
+
+**PLEASE USE THE OFFICIAL ADD-ON!**
+
+**The PR from this fork is merged.**
+
+**At this point the two add-ons are functionally equivalent.**
+
+***=== END OF LIFE === END OF LIFE === END OF LIFE === END OF LIFE ===***
+
 ## 2.6.0
 
 - Migrate add-on layout to S6 Overlay

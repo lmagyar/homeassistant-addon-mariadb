@@ -1,3 +1,7 @@
+
+| <img src="https://github.com/lmagyar/homeassistant-addon-mariadb/raw/master/images/stop_sign.png" title="Stop"> | === END OF LIFE === END OF LIFE === END OF LIFE === END OF LIFE === <br> **PLEASE USE THE OFFICIAL ADD-ON!** <br> **The PR from this fork is merged.** <br> **At this point the two add-ons are functionally equivalent.** | <img src="https://github.com/lmagyar/homeassistant-addon-mariadb/raw/master/images/stop_sign.png" title="Stop"> |
+| --- | --- | --- |
+
 # Home Assistant Add-on: MariaDB with bugfixes
 
 ![Warning][warning_stripe]
