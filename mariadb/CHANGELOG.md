@@ -10,6 +10,10 @@
 
 ***=== END OF LIFE === END OF LIFE === END OF LIFE === END OF LIFE ===***
 
+## 2.6.1
+
+- Use proper log redirection during backup
+
 ## 2.6.0
 
 - Migrate add-on layout to S6 Overlay
