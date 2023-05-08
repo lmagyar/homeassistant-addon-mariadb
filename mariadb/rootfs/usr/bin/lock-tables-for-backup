@@ -1,7 +1,7 @@
 #!/command/with-contenv bashio
 # shellcheck shell=bash
 # ==============================================================================
-# Lock tables for backups
+# Lock tables for backup
 # ==============================================================================
 
 redirfd -wn 1 /proc/1/fd/1 \
